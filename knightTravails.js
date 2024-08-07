@@ -6,6 +6,7 @@ function knightTravails(coords1, coords2) {
         graph[i][j] = createEdge([i, j]);
       }
     }
+    
     function createEdge(coords) {
       let edges = [];
       let x = coords[0];
